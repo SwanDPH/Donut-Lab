@@ -74,12 +74,13 @@ nav ul {
   min-height: calc(90vh);
   color: #e84393;
   display: flex;
+  flex-wrap: wrap;
 }
 
 #premiere-partie img,
 #deuxieme-partie img {
   margin-top: 5rem;
-  width: 80%;
+  flex: 1 1 20rem;
   border-radius: 50%;
 }
 .accueil-texte {
@@ -87,6 +88,7 @@ nav ul {
   flex-direction: column;
   height: 100%;
   align-self: center;
+  flex: 1 1 20rem;
 }
 .accueil-texte button {
   color: white;
@@ -137,6 +139,7 @@ footer {
 }
 footer ul {
   list-style: none;
+  padding: 2rem;
 }
 footer a {
   font-size: 1.2rem;
