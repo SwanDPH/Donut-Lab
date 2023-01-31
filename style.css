@@ -1,121 +1,143 @@
 /* Variables Globales*/
 
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: "Nerko One", cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-ul a{
-    color: white;
-    font-size: 1.5rem;
+ul a {
+  color: white;
+  font-size: 1.5rem;
 }
-a{
-    text-decoration: none;
-    color: white;
+a {
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: white;
 }
-a:hover{
-    color:#e84393;
-    text-decoration: underline;
+a:hover {
+  color: #e84393;
+  background: white;
+  border-radius: 1rem;
 }
-h1{
-    font-size: 2.5rem;
+h1 {
+  font-size: 2.5rem;
 }
-h2{
-    font-size: 4rem;
+h2 {
+  font-size: 4rem;
 }
-h3{
-    font-size: 2rem;
+h3 {
+  font-size: 2rem;
 }
 
 /* NAVBAR */
-header{
-    background: #fd79a8;
-    color: rgb(249, 243, 243);
-    position: sticky;
-    top: 0px;
-    z-index: 3;
-    border-radius: 3rem;
-    width: 90%;
-    margin: auto;
+header {
+  background: #fd79a8;
+  color: rgb(249, 243, 243);
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  border-radius: 3rem;
+  width: 90%;
+  margin: auto;
 }
-nav{
-    
-    display: flex;
-    width: 90%;
-    margin: auto;
-    padding: 2rem;
-    min-height: 10vh;
-    align-items: center;
-    flex-wrap: wrap;
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
 }
-nav h1{
-    flex: 1 2 30rem;
+nav h1 {
+  flex: 1 2 30rem;
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-between;
-    align-items: center;
+nav ul {
+  list-style: none;
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* PAGE ACCUEIL */
 
-.page-accueil{
-    width: 90%;
-    margin: auto;
-    min-height: calc(90vh);
-    color: #e84393;
-    display: flex;
+#premiere-partie,
+#deuxieme-partie {
+  width: 90%;
+  margin: auto;
+  min-height: calc(90vh);
+  color: #e84393;
+  display: flex;
 }
 
-.page-accueil img{
-    margin-top: 5rem;
-    /* width: 40%;
-    height: 40%; */
-    border-radius: 50%;
+#premiere-partie img,
+#deuxieme-partie img {
+  margin-top: 5rem;
+  width: 80%;
+  border-radius: 50%;
 }
-#accueil-texte{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-self: center;
-    /* align-items: center;
-    justify-content: center; */
+.accueil-texte {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-self: center;
 }
-#accueil-texte button{
-    color: white;
-    background:#fd79a8;
-    width: 20rem;
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 2rem;
-    border-radius: 2rem;
-    align-self: center;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.accueil-texte button {
+  color: white;
+  background: #fd79a8;
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  align-self: center;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-#accueil-texte button:hover{
-    color: #fd79a8;
-    background:white;
-    width: 20rem;
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 2rem;
-    border-radius: 2rem;
-    align-self: center;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    transform: scale(1.2);
-    cursor: pointer;
+.accueil-texte button:hover {
+  color: #fd79a8;
+  background: white;
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  align-self: center;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.2);
+  cursor: pointer;
 }
-#accueil-texte h3{
-    padding-top: 2rem;
+.accueil-texte h3 {
+  padding-top: 2rem;
+}
+#image {
+  padding-right: 2rem;
+}
+
+/* FOOTER */
+footer {
+  margin: 4rem;
+  background: #fd79a8;
+  border-radius: 3rem;
+  color: white;
+  text-decoration: none;
+}
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul {
+  list-style: none;
+}
+footer a {
+  font-size: 1.2rem;
 }
