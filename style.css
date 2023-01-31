@@ -230,10 +230,10 @@ button:hover{
     background-image: url(src/Images/shopbg.jfif);
 }
 #realisation {
-    height: 200px;
+    height: 12rem;
     background-color:#fd79a8 ;
     background-image: url(src/Images/headerRealisation.jpeg);
-    border: 1px solid #fd79a8;
+    border: 0.3rem solid #fd79a8;
     width: 40%;
     margin: 0px auto;
     position: relative;
@@ -244,10 +244,10 @@ button:hover{
   }
   
   #realisation h1{
-    font-size: 100px;
+    font-size: 6rem;
     color:#e84393;
-    text-shadow: -2px 0 black, 0 4px black,
-      4px 0 black, 0 -2px black;
+    text-shadow: -0.12rem 0 black, 0 0.25rem black,
+      0.25rem 0 black, 0 -0.12rem black;
     text-align: center
     
   }
@@ -256,15 +256,15 @@ button:hover{
     display: flex;
      flex-wrap:wrap;
      justify-content: space-around;
-     padding: 5px;
+     padding: 0.3rem;
      
 }
 
 
 .container .item {
-    margin: 5px;
-    height: 300px;
-    width: 300px;
+    margin: 0.3rem;
+    height: 20rem;
+    width: 20rem;
     
 }
 
