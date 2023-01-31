@@ -1,76 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
+
 <head>
-        <title>Contact</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DONUT-LAB | Site de vente de Donuts</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <img src="./src/Images/donuts_logo.png" style="width: 100px">
+            <h1> DONUT LAB</h1>
+            <ul class="navlist">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./TeamPage.html">Notre équipe</a></li>
+                <li><a href="./Realisationpage.html">Nos réalisations</a></li>
+                <li><a href="./ContactPage.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="formulaireInput">
         <p>Contactez-nous !</p>
-                <div>
-                <img src="/src/Images/Icon_Contact_page/Name.png" alt="">
-                <input type="text" id="name" placeholder="Nom">
-                </div>
+        <div>
+            <img src="/src/Images/Icon_Contact_page/Name.png" alt="">
+            <input type="text" id="name" placeholder="Nom">
+        </div>
 
-                <div>
-                <img src="/src/Images/Icon_Contact_page/firstname.png" alt="">
-                <input type="text" id="firstName" placeholder="Prénom">
-                </div>
-                
-                <div>
-                <img src="/src/Images/Icon_Contact_page/age.png" alt="">
-                <input type="number" id="age" placeholder="Age">
-                </div>
+        <div>
+            <img src="/src/Images/Icon_Contact_page/firstname.png" alt="">
+            <input type="text" id="firstName" placeholder="Prénom">
+        </div>
 
-                <div>
-                <img src="/src/Images/Icon_Contact_page/email.png" alt="">
-                <input type="email" id="email" placeholder="E-mail">
-                </div>
-                    <div>
-                        <p>Donut(s) concerné(s) :</p>
-                    </div>
-                <div class="ChoixDonut">
-                            <div style="margin: 2px;">
-                                <p>Donut Caramel</p>
-                                <input type="checkbox" id="Donut1" placeholder="Donut1" aria-label="donut1">
-                            </div>
+        <div>
+            <img src="/src/Images/Icon_Contact_page/age.png" alt="">
+            <input type="number" id="age" placeholder="Age">
+        </div>
 
-                            <div style="margin: 2px;">
-                                <p>Donut Saumon</p>
-                                <input type="checkbox" id="Donut2" placeholder="Donut2">
-                            </div>
+        <div>
+            <img src="/src/Images/Icon_Contact_page/email.png" alt="">
+            <input type="email" id="email" placeholder="E-mail">
+        </div>
+        <div>
+            <p>Donut(s) concerné(s) :</p>
+        </div>
+        <div class="ChoixDonut">
+            <div>
+                <p>Donut Caramel</p>
+                <input type="checkbox" id="Donut1" placeholder="Donut1" aria-label="donut1">
+            </div>
 
-                            <div style="margin: 2px;">
-                                <p>Donut Sucre</p>
-                                <input type="checkbox" id="Donut3" placeholder="Donut3">
-                            </div>
+            <div>
+                <p>Donut Saumon</p>
+                <input type="checkbox" id="Donut2" placeholder="Donut2">
+            </div>
 
-                            <div style="margin: 2px;">                       
-                                <p>Donut Bambou</p>
-                                <input type="checkbox" id="Donut4" placeholder="Donut4">
-                            </div>
-                </div>
+            <div>
+                <p>Donut Sucre</p>
+                <input type="checkbox" id="Donut3" placeholder="Donut3">
+            </div>
 
-                <div>
-                <img src="/src/Images/Icon_Contact_page/description.png" alt="">
-                <input type="text" id="description"  minlength="10" maxlength="158" placeholder="Description">
-                </div>
+            <div>
+                <p>Donut Bambou</p>
+                <input type="checkbox" id="Donut4" placeholder="Donut4">
+            </div>
+        </div>
 
-                <div class="boutton">
-                <button type="submit">
-                    Transférer le message !
-                </button>
-                </div>
+        <div>
+            <img src="/src/Images/Icon_Contact_page/description.png" alt="">
+            <input type="text" id="description" minlength="10" maxlength="158" placeholder="Description">
+        </div>
+
+        <div class="boutton">
+            <button type="submit">
+                Envoyer
+            </button>
+        </div>
     </div>
 
 </body>
 
-
 <footer>
-
+    <ul id="footer">
+        <li><a href="./index.html">DONUT LAB</a></li>
+        <li><a href="./TeamPage.html"> NOTRE EQUIPE</a></li>
+        <li><a href="./Realisationpage.html"> NOS REALISATIONS</a></li>
+        <li><a href="./ContactPage.html">NOUS CONTACTER </a></li>
+    </ul>
 </footer>
 
 </html>
