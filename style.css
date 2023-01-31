@@ -144,3 +144,83 @@ footer ul {
 footer a {
   font-size: 1.2rem;
 }
+
+/* // Swan */
+
+.formulaireInput{
+    display: flex;
+    flex-direction: column;
+    background-color: #fd79a8;
+    width: 100%;
+    height: 120%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulaireInput p{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Nerko One', cursive;
+}
+.formulaireInput div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+#description{
+    width: 30rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+div img{
+    width: 3rem;
+    height: 3rem;
+    margin: 8px;
+}
+
+.ChoixDonut{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 1895px;
+}
+
+.ChoixDonut p{
+    font-size:  20px;
+    color: whitesmoke;
+}
+.ChoixDonut input{
+    width: 2rem;
+    height: 2rem;
+}
+.ChoixDonut div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    width: 13rem;
+    height: 5rem;
+    background-color: whitesmoke;
+    transition: all 0.2s ease-in-out;
+    
+    
+}
+
+button:hover{
+    background-color: #fca8c6;
+    border-radius: 11px;
+    cursor: pointer;
+}
