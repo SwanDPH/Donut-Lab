@@ -203,6 +203,7 @@ input {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1rem;
+  margin-bottom: 25px;
 }
 
 .ChoixDonut p {
