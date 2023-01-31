@@ -145,7 +145,7 @@ footer a {
   font-size: 1.2rem;
 }
 
-/* // Swan */
+/* // Swan page contact*/
 
 .formulaireInput{
     display: flex;
@@ -224,3 +224,47 @@ button:hover{
     border-radius: 11px;
     cursor: pointer;
 }
+/* realisation by KArim */
+
+.bgrealisation {
+    background-image: url(src/Images/shopbg.jfif);
+}
+#realisation {
+    height: 200px;
+    background-color:#fd79a8 ;
+    background-image: url(src/Images/headerRealisation.jpeg);
+    border: 1px solid #fd79a8;
+    width: 40%;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #realisation h1{
+    font-size: 100px;
+    color:#e84393;
+    text-shadow: -2px 0 black, 0 4px black,
+      4px 0 black, 0 -2px black;
+    text-align: center
+    
+  }
+
+.container {
+    display: flex;
+     flex-wrap:wrap;
+     justify-content: space-around;
+     padding: 5px;
+     
+}
+
+
+.container .item {
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    
+}
+
