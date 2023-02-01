@@ -40,7 +40,7 @@ p {
 
 /* NAVBAR */
 header {
-  background: #fd79a8;
+  background: #f25278;
   color: rgb(249, 243, 243);
   position: sticky;
   top: 0px;
@@ -111,7 +111,7 @@ nav ul li a {
 .button,
 button {
   color: white;
-  background: #fd79a8;
+  background: #f25278;
   width: 20rem;
   margin: 2rem;
   padding: 2rem;
@@ -125,7 +125,7 @@ button {
 }
 .button:hover,
 button:hover {
-  color: #fd79a8;
+  color: #f25278;
   background: white;
   width: 20rem;
   margin: 2rem;
@@ -138,7 +138,7 @@ button:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   transform: scale(1.1);
-  border: 2px solid #fd79a8;
+  border: 2px solid #f25278;
   cursor: pointer;
 }
 .accueil-texte h3 {
@@ -151,7 +151,7 @@ button:hover {
 /* FOOTER */
 footer {
   margin: 4rem;
-  background: #fd79a8;
+  background: #f25278;
   border-radius: 3rem;
   color: white;
   text-decoration: none;
@@ -173,7 +173,7 @@ footer a {
 .formulaireInput {
   display: flex;
   flex-direction: column;
-  background-color: #fd79a8;
+  background-color: #f25278;
   width: 100%;
   height: 120%;
   flex-wrap: wrap;
@@ -245,7 +245,7 @@ input {
   opacity: 0.9;
   filter: blur(1px);
   background: url(./src/Images/headerRealisation.jpeg) no-repeat center / cover;
-  border: 0.3rem solid #fd79a8;
+  border: 0.3rem solid #f25278;
   width: 100%;
   position: relative;
   display: flex;
@@ -256,7 +256,7 @@ input {
 
 #realisation h1 {
   font-size: 6rem;
-  color: #fd79a8;
+  color: #f25278;
   text-shadow: -0.12rem 0 black, 0 0.25rem black, 0.25rem 0 black, 0 -0.12rem black;
   text-align: center;
 }
@@ -276,11 +276,23 @@ input {
   border-radius: 2rem;
 }
 
+#jaune {
+  order: -2;
+}
+
+#bleu {
+  order: -1;
+}
+
+#chocolat {
+  order: 1;
+}
+
 /* TEAMPAGE By NAIMA */
 
 .teampage {
   text-align: center;
-  color: #fd79a8;
+  color: #f25278;
 }
 .team-member {
   display: flex;
@@ -313,7 +325,7 @@ input {
 
 .team {
   text-align: center;
-  background-color: #fd79a8;
+  background-color: #f25278;
   color: #ffffff;
   padding-bottom: 5rem;
   padding-top: 5rem;
