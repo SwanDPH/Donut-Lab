@@ -87,7 +87,7 @@ nav ul li a {
 #premiere-partie img,
 #deuxieme-partie img {
   margin-top: 5rem;
-  flex: 1 1 10rem;
+  flex: 1 1 20rem;
   border-radius: 50%;
 }
 .accueil-texte {
@@ -131,10 +131,10 @@ button:hover {
   cursor: pointer;
 }
 .accueil-texte h3 {
-  padding-top: 2rem;
+  padding-top: 1.6rem;
 }
 #image {
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
 
 /* FOOTER */
