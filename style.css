@@ -216,7 +216,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1rem;
+  width: 5rem;
   margin-bottom: 25px;
 }
 
@@ -225,8 +225,8 @@ input {
   color: whitesmoke;
 }
 .ChoixDonut input {
-  width: 2rem;
-  height: 2rem;
+  width: 10rem;
+  height: 4rem;
 }
 .ChoixDonut div {
   flex: 1 1 2rem;
