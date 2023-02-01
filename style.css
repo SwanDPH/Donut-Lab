@@ -265,6 +265,17 @@ input {
   border-radius: 2rem;
 }
 
+  #jaune {
+  order : -2;
+}
+
+#bleu {
+  order: -1;
+}
+
+#chocolat{
+  order: 1;
+}
 /* TEAMPAGE By NAIMA */
 
 .teampage {
