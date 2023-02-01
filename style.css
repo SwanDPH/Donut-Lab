@@ -20,7 +20,7 @@ a {
   color: white;
 }
 a:hover {
-  color: #e84393;
+  color: #EFA3C8;
   background: white;
   border-radius: 1rem;
 }
@@ -79,7 +79,7 @@ nav ul li a {
   width: 90%;
   margin: auto;
   min-height: calc(90vh);
-  color: #e84393;
+  color:#EFA3C8;
   display: flex;
   flex-wrap: wrap;
 }
@@ -289,7 +289,7 @@ input {
 .member p {
   font-size: 1.4rem;
   line-height: 2;
-  color: #e84393;
+  color: #EFA3C8;
   width: 50vw;
   padding: 4rem 0;
 }
@@ -314,7 +314,7 @@ input {
   margin: 0 auto;
   font-size: 1.4rem;
   line-height: 2;
-  color: #e84393;
+  color: #EFA3C8;
   text-align: center;
 }
 
