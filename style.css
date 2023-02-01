@@ -74,15 +74,26 @@ nav ul li a {
 
 /* PAGE ACCUEIL */
 
-#premiere-partie,
-#deuxieme-partie {
+#premiere-partie {
   width: 90%;
-  margin: auto;
-  min-height: calc(90vh);
-  color: #e84393;
-  display: flex;
-  flex-wrap: wrap;
+    margin: auto;
+    min-height: calc(90vh);
+    color: #e84393;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
+#deuxieme-partie
+ {
+  width: 90%;
+    margin: auto;
+    min-height: calc(90vh);
+    color: #e84393;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 
 #premiere-partie img,
 #deuxieme-partie img {
@@ -91,7 +102,7 @@ nav ul li a {
   border-radius: 50%;
 }
 .accueil-texte {
-  display: flex;
+  display:flex;
   flex-direction: column;
   height: 100%;
   align-self: center;
