@@ -133,9 +133,9 @@ button:hover {
 .accueil-texte h3 {
   padding-top: 1.6rem;
 }
-#image {
-  padding-right: 3rem;
-}
+/* #image {
+  padding-right: 0rem;
+} */
 
 /* FOOTER */
 footer {
